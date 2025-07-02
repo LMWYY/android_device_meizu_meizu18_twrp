@@ -114,4 +114,3 @@ TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone18/temp"
-TW_CUSTOM_BATTERY_PATH := "/sys/class/meizu/charger/power_supply/battery/capacity"
