@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.lahaina
-    bootctl
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
