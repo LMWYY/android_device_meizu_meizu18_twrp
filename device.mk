@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.lahaina
+    bootctl
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
@@ -27,3 +28,10 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
